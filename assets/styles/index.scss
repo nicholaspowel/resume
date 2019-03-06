@@ -19,6 +19,10 @@ a {
   padding: 5% calc(100%/2 - 425px);
 }
 
+.company {
+  font-weight: bold;
+}
+
 #resume {
   padding: 50px;
   background-color: white;
@@ -45,7 +49,7 @@ a {
     padding: 50px;
 
     a {
-      color: green;
+      color: black;
       text-decoration: none;
     }
 
