@@ -1,1 +1,60 @@
 @import '~bootstrap/scss/bootstrap';
+
+html {
+  box-sizing: content-box;
+}
+
+a {
+  color: green;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+#background {
+  background-color: #696969;
+  background-image: url("https://i.imgur.com/ixK7Npm.jpg");
+  background-size: cover;
+  padding: 5% calc(100%/2 - 425px);
+}
+
+#resume {
+  padding: 50px;
+  background-color: white;
+  border: 1px solid black;
+  box-shadow: 5px 10px;
+  overflow: hidden;
+}
+@page {
+  size: 8.5in 11in;
+  padding: 0;
+  margin: 0;
+}
+@media print {
+  #background {
+    padding: 0;
+    margin: 0;
+  }
+
+  #resume {
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 50px;
+
+    a {
+      color: green;
+      text-decoration: none;
+    }
+
+    #skills {
+      max-width: calc(100vw - 50px);
+
+      & > * {
+        max-width: calc(100vw - 50px);
+      }
+    }
+  }
+}
