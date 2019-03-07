@@ -1,5 +1,5 @@
 @import '~bootstrap/scss/bootstrap';
-$icon-height: 24px;
+$icon-height: 20px;
 
 html {
   box-sizing: content-box;
@@ -27,6 +27,11 @@ a {
 
 .icon {
   height: $icon-height;
+  width: $icon-height;
+}
+
+p {
+  height: inherit;
 }
 
 #resume {
