@@ -28,9 +28,15 @@ a {
 
 p {
   height: inherit;
+  margin-bottom: 0;
+  font-size: 14px;
 }
 
 #resume {
+  max-height: 1300px;
+  height: 1300px;
+  width: 950px;
+  max-width: 950px;
   padding: 50px;
   background-color: white;
   border: 1px solid black;
@@ -49,7 +55,6 @@ p {
   }
 
   #resume {
-    background-color: white;
     width: 100vw;
     height: 100vh;
     margin: 0;
