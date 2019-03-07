@@ -1,4 +1,5 @@
 @import '~bootstrap/scss/bootstrap';
+$icon-height: 24px;
 
 html {
   box-sizing: content-box;
@@ -6,6 +7,7 @@ html {
 
 a {
   color: green;
+  display: block;
 
   &:hover {
     text-decoration: none;
@@ -21,6 +23,10 @@ a {
 
 .company {
   font-weight: bold;
+}
+
+.icon {
+  height: $icon-height;
 }
 
 #resume {

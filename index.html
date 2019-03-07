@@ -3,8 +3,6 @@
 
 <head>
   <title>David Ko Resume</title>
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/custom.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Do not add `link` tags-->
@@ -18,31 +16,47 @@
 <body>
   <div class="" id="background">
     <div class="" id="resume">
+      <!--  Header Section-->
       <div class="d-flex justify-content-between border-bottom" id="header">
+        <!--  Name and Title Sub-Section-->
         <div class="flex-column">
           <h1>David Ko</h1>
-          <h2>Software Engineer</h2>
+          <h3>Software Engineer | Full Stack Developer</h3>
         </div>
-        <div class="flex-column" id="contact-info">
-          <a href="https://github.com/davidholyko" target="_blank">
-            <p class="my-0">Github: davidholyko</p>
+        <!--  Contact Info Sub-Section-->
+        <div class="" id="contact-info">
+          <a class="d-flex " href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=david.holy.ko@gmail.com" target="_blank">
+            <img class="icon" height="16" src="assets/icons/gmail.png" alt="">
+            <span class="my-0 mx-1">Gmail:</span>
+            <span class="ml-auto"> david.holy.ko</span>
           </a>
-          <a href="https://www.linkedin.com/in/davidhko1/" target="_blank">
-            <p class="my-0">LinkedIn: davidhko1</p>
+          <a class="d-flex my-1" href="https://github.com/davidholyko" target="_blank">
+            <img class="icon" src="assets/icons/github.png" alt="">
+            <span class="my-0 mx-1">Github:</span>
+            <span class="ml-auto">davidholyko</span>
           </a>
-          <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=david.holy.ko@gmail.com" target="_blank">
-            <p class="my-0">Gmail: david.holy.ko</p>
+          <a class="d-flex my-1" href="https://www.linkedin.com/in/davidhko1/" target="_blank">
+            <img class="icon" height="16" src="assets/icons/linkedin.png" alt="">
+            <span class="my-0 mx-1">LinkedIn:</span>
+            <span class="ml-auto">davidhko1</span>
           </a>
-          <p>Phone: 617-842-1015</p>
+          <div class="d=flex my-1">
+            <img class="icon" height="16" src="assets/icons/phone.png" alt="">
+            <span class="my-0 mx-0">Phone:</span>
+            <span class="ml-auto">617-842-1015</span>
+          </div>
         </div>
       </div>
 
+      <!-- Summary Section-->
       <div class="text-justify my-2 border-bottom" id="summary">
         Summary: Bacon ipsum dolor amet t-bone shankle bresaola turkey tail. Venison hamburger chuck, landjaeger bresaola short ribs doner shoulder spare ribs tail swine pastrami pig. Rump chicken leberkas, t-bone sausage .
       </div>
 
-      <div class="flex-column my-1 border-bottom" id="skills">
 
+      <!--  Skills Section-->
+      <div class="flex-column my-1 border-bottom" id="skills">
+        <!--  Languages Sub-Section-->
         <div class="my-0 d-flex justify-content-between" id="languages">
           <div id="languages-header">
             <span class="skills-header">Languages:</span>
@@ -55,6 +69,7 @@
           <p>Java</p>
           <p>VBA</p>
         </div>
+        <!--  Libraries Sub-Section-->
         <div class="my-0 d-flex justify-content-between" id="libraries">
           <div id="libraries-header">
             <span class="skills-header">Libraries:</span>
@@ -69,28 +84,30 @@
         </div>
       </div>
 
+
+      <!--  Projects Section-->
       <div id="projects">
         <div class="text-center">
-          <h2>General Assembly Web Development Projects</h2>
+          <h4>General Assembly Web Development Projects</h4>
         </div>
-        <div class="border-bottom" id="project-one">
+        <!--  Project 1 Sub-Section-->
+        <div class="border-bottom" id="project-1">
           <a href="https://github.com/davidholyko/dko-tic-tac-toe-client" target="_blank">
-            <h3>Front-End Tic-Tac-Toe</h3>
+            <h5>Front-End Tic-Tac-Toe</h5>
           </a>
-
         </div>
         <div class="description">
           <ul>
-            <li>Includes solution for Tic-Tac-Toe for any size </li>
-            <li>Includes demonstration of how solution works </li>
-            <li>Uses Responsive Design Concepts with Bootstrap, jQuery, and SCSS</li>
             <li>Single Page Application created with HTML, CSS, Javascript </li>
+            <li>Includes solution and demonstration for Tic-Tac-Toe for any size </li>
+            <li>Uses Responsive Design Concepts with Bootstrap, jQuery, and SCSS</li>
             <li>AJAX requests sends/receives data from server </li>
-            <li>Uses RESTful API </li>
           </ul>
         </div>
-        <div class="border-bottom" id="project-two">
-          <h3>Tic-Tac-Toe Part 2</h3>
+
+        <!--  Project 2 Sub-Section-->
+        <div class="border-bottom" id="project-2">
+          <h5>Tic-Tac-Toe Part 2</h5>
         </div>
         <div class="description">
           <ul>
@@ -100,22 +117,27 @@
             <li>ribeye flank. Corned beef landjaeger fatback, salami shankle short ribs pancetta </li>
           </ul>
         </div>
-        <div class="border-bottom" id="project-three">
-          <h3>Tic-Tac-Toe Part 3</h3>
+
+        <!--  Project 3 Sub-Section-->
+        <div class="border-bottom" id="project-3">
+          <h5>Tic-Tac-Toe Part 3</h5>
         </div>
         <div class="description">
           <ul>
             <li>Bacon ipsum dolor amet t-bone shankle bresaola turkey tail. </li>
             <li>Venison hamburger chuck, landjaeger bresaola short ribs doner shoulder spare ribs </li>
-            <li>tail swine pastrami pig. Rump chicken leberkas, t-bone sausage ground round </li>
-            <li>ribeye flank. Corned beef landjaeger fatback, salami shankle short ribs pancetta </li>
           </ul>
         </div>
       </div>
 
+
+
+      <!--  Work History Section-->
       <div id="work-history">
-        <h2>Work History</h2>
-        <div class="job flex-column">
+        <h4 id="work-history-header">Work History</h4>
+
+        <!--  Job 1 Info-->
+        <div class="job flex-column" id="job-1">
           <div class="top d-flex flex-row">
             <div class="company">Manning Personnel Group</div>
             <div class="location mx-2">Boston, MA</div>
@@ -131,18 +153,39 @@
             </ul>
           </div>
         </div>
+
+        <!--  Job 2 Info-->
+        <div class="job flex-column" id="job-2">
+          <div class="top d-flex flex-row">
+            <div class="company">General Assembly</div>
+            <div class="location mx-2">Boston, MA</div>
+            <div class="date-duration ml-auto">Jan 2019 - now</div>
+          </div>
+          <div class="job-title">Web Development Immersive Fellow</div>
+          <div class="job-description">
+            <ul>
+              <li>Bacon ipsum dolor amet t-bone shankle bresaola turkey tail. </li>
+              <li>Venison hamburger chuck, landjaeger bresaola short ribs doner shoulder spare ribs </li>
+              <li>tail swine pastrami pig. Rump chicken leberkas, t-bone sausage ground round </li>
+              <li>ribeye flank. Corned beef landjaeger fatback, salami shankle short ribs pancetta </li>
+            </ul>
+          </div>
+        </div>
       </div>
 
+      <!--  Education Section-->
       <div id="education">
-        <h2>Education</h2>
+        <h4>Education</h4>
         <ul>
           <li>General Assembly Web Development Immersive</li>
           <li>UMass Amherst</li>
         </ul>
       </div>
 
+
+      <!--  Interests Section-->
       <div id="interests">
-        <h2>Interests</h2>
+        <h4>Interests</h4>
         <div class="games flex-row d-flex justify-content-between">
           <div>Smite</div>
           <div>Total Warhammer II</div>
