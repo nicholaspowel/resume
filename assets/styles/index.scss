@@ -26,10 +26,12 @@ a {
   width: $icon-height;
 }
 
+a,
+li,
 p {
   height: inherit;
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 1rem;
 }
 
 #resume {
