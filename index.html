@@ -14,7 +14,11 @@
 </head>
 
 <body>
+  <!--  Background Section-->
   <div class="d-flex justify-content-center" id="background">
+
+
+    <!--  Resume Section-->
     <div class="a" id="resume">
 
 
@@ -25,6 +29,8 @@
         <div class="d-flex flex-column">
           <h1 class="my-2 font-weight-bold">David Ko</h1>
           <h5 class="text-muted font-weight-bold">Software Engineer | Full Stack Developer</h5>
+          <h5 class="text-muted font-weight-bold">Boston, MA</h5>
+          <!--  Name and Title Sub-Section End-->
         </div>
 
         <!--  Contact Info Sub-Section-->
@@ -45,21 +51,24 @@
             <img class="icon mx-1" src="public/images/phone.png" alt="">
             <span class="my-0">Phone:</span><span class="ml-auto">617-842-1015</span>
           </div>
+          <!--  Contact Info Sub-Section End-->
         </div>
+        <!--  Header Section End-->
       </div>
 
       <!-- Summary Section-->
       <div id="summary" class="text-justify my-2 py-3">
         <span class="font-weight-bold">Summary:</span> Bacon ipsum dolor amet t-bone shankle bresaola turkey tail. Venison hamburger chuck, landjaeger bresaola short ribs doner shoulder spare ribs tail swine pastrami pig. Rump chicken leberkas,
-        t-bone sausage .
+        t-bone sausage.
+        <!-- Summary Section End-->
       </div>
-
 
 
       <!--  Skills and Projects Super-Section-->
       <div id="skills-and-projects" class="d-flex flex-row">
+
         <!--  Skills Section-->
-        <div id="skills" class="d-flex flex-column my-1 col-2">
+        <div id="skills" class="d-flex flex-column my-1 p-0">
 
           <!--  Languages Sub-Section-->
           <div id="languages" class="my-3 d-flex flex-column justify-content-between mb-2">
@@ -210,15 +219,32 @@
 
           <!--  Interests Section-->
           <div id="interests" class="">
-            <div id="games" class="">
-              <!--  Interests Header-->
-              <span id="interests-header" class="font-weight-bold">Interests</span>
-              <!--  Interests Items-->
-              <div><a href="https://www.youtube.com/watch?v=KqUPHtpNCyc" target="_blank">Smite</a></div>
-              <div><a href="https://www.youtube.com/watch?v=fXxe897bW-A" target="_blank">Warhammer II</a></div>
-              <div><a href="https://www.youtube.com/watch?v=jVf-lCVYI6k" target="_blank">XCOM 2</a></div>
-              <div><a href="https://www.youtube.com/watch?v=KZbNHkedL0Q" target="_blank">Cooking</a></div>
-              <div><a href="https://www.youtube.com/watch?v=_XmhBaUdges" target="_blank">Football</a></div>
+            <!--  Interests Header-->
+            <span id="interests-header" class="font-weight-bold">Interests</span>
+            <!--  Interests Item-->
+            <div class="d-flex">
+              <img class="icon mx-1" src="public/images/smite.png" alt="">
+              <a href="https://www.youtube.com/watch?v=KqUPHtpNCyc" target="_blank">Smite</a>
+            </div>
+            <!--  Interests Item-->
+            <div class="d-flex">
+              <img class="icon mx-1" src="public/images/warhammer.png" alt="">
+              <a href="https://www.youtube.com/watch?v=fXxe897bW-A" target="_blank">Warhammer II</a>
+            </div>
+            <!--  Interests Item-->
+            <div class="d-flex">
+              <img class="icon mx-1" src="public/images/xcom.png" alt="">
+              <a href="https://www.youtube.com/watch?v=jVf-lCVYI6k" target="_blank">XCOM 2</a>
+            </div>
+            <!--  Interests Item-->
+            <div class="d-flex">
+              <img class="icon mx-1" src="public/images/cooking.png" alt="">
+              <a href="https://www.youtube.com/watch?v=KZbNHkedL0Q" target="_blank">Cooking</a>
+            </div>
+            <!--  Interests Item-->
+            <div class="d-flex">
+              <img class="icon mx-1" src="public/images/football.png" alt="">
+              <a href="https://www.youtube.com/watch?v=_XmhBaUdges" target="_blank">Football</a>
             </div>
             <!--  Interests End-->
           </div>
@@ -228,7 +254,7 @@
 
 
         <!--  Projects Section-->
-        <div id="projects" class="col-10">
+        <div id="projects" class="p-0 flex-grow-1">
           <div class="text-center">
             <h4 class="font-weight-bold border-bottom">Projects</h4>
           </div>
@@ -319,7 +345,7 @@
         <div id="job-1" class="job flex-column">
           <div class="top d-flex flex-row">
             <div class="company font-weight-bold">General Assembly</div>
-            <div class="location mx-2">Boston, MA</div>
+            <div class="location mx-2 font-italic">Boston, MA</div>
             <div class="date-duration ml-auto">Jan 2019 - Present</div>
           </div>
           <div class="job-title font-weight-bold">Web Development Immersive Fellow</div>
@@ -340,7 +366,7 @@
         <div id="job-2" class="job flex-column">
           <div class="top d-flex flex-row">
             <div class="company font-weight-bold">Manning Personnel Group</div>
-            <div class="location mx-2">Boston, MA</div>
+            <div class="location mx-2 font-italic">Boston, MA</div>
             <div class="date-duration ml-auto">June 2018 - July 2018</div>
           </div>
           <div class="job-title font-weight-bold">Compliance Services Specialist</div>
@@ -364,11 +390,17 @@
       <!--  Education Section-->
       <div id="education">
         <!-- Education Header-->
-        <h4 id="education-header" class="font-weight-bold text-center">Education</h4>
-        <ul>
-          <li>General Assembly Web Development Immersive</li>
-          <li>UMass Amherst</li>
-        </ul>
+        <h4 id="education-header" class="font-weight-bold text-center border-bottom">Education</h4>
+        <div class="d-flex">
+          <span class="font-weight-bold">General Assembly:</span>
+          <span class="mx-1"> Full time 500+ hour Web Development Immersive</span>
+          <span class="date-duration ml-auto">Jan 2019 - Present</span>
+        </div>
+        <div class="d-flex">
+          <span class="font-weight-bold">UMass Amherst:</span>
+          <span class="mx-1">Coursework in Operations Information Management</span>
+          <span class="date-duration ml-auto">Sept 2013 - May 2018</span>
+        </div>
         <!--  Education Section End -->
       </div>
 
