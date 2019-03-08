@@ -21,6 +21,11 @@ a {
   padding: 5%;
 }
 
+body {
+  display: none;
+  opacity: 0;
+}
+
 .icon {
   height: $icon-height;
   width: $icon-height;
