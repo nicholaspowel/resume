@@ -8,6 +8,5 @@
 
 $(() => {
   console.log('JavaScript is running...')
-  $('body').fadeTo('slow', 1)
-  $('body').show()
+  $('body').fadeTo('fast', 1)
 })
