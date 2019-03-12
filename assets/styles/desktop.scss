@@ -1,0 +1,84 @@
+$icon-height: 20px;
+
+html {
+  box-sizing: content-box;
+  font-family: Roboto;
+  font-size: 8px;
+}
+
+a {
+  color: blue;
+  display: block;
+  height: inherit;
+  margin-bottom: 0;
+  font-size: 1rem;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+li {
+  height: inherit;
+  margin-bottom: 0;
+  font-size: 1rem;
+}
+
+#background {
+  background-color: #696969;
+  background-image: url("https://i.imgur.com/ixK7Npm.jpg");
+  background-size: cover;
+  padding: 5%;
+}
+
+body {
+  opacity: 0;
+  color: DarkBlue;
+}
+
+#contact-info {
+  width: 25%;
+}
+
+.icon {
+  height: $icon-height;
+  width: $icon-height;
+}
+
+p {
+  height: inherit;
+  margin-bottom: 0;
+  font-size: 1rem;
+}
+
+.project-text {
+  font-size: 125%;
+}
+
+#name-and-title {
+  // font-family: Cambria;
+}
+
+#skills {
+  // background-color: AliceBlue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#skills-and-projects {
+  display: flex;
+  flex-direction: row;
+}
+
+#resume {
+  // max-height: 1300px;
+  // max-width: 950px;
+  // height: 1300px;
+  width: 1050px;
+  padding: 50px;
+  box-shadow: 5px 10px;
+  overflow: hidden;
+  background-color: white;
+}

@@ -1,0 +1,23 @@
+@media (max-width:700px) {
+  #resume {
+    padding: 16px;
+    margin: 0;
+
+    #header {
+      flex-wrap: wrap;
+    }
+
+    #name-and-title {
+      width: 100%;
+    }
+
+    #contact-info {
+      width: 100%;
+    }
+
+    #skills-and-projects {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
