@@ -3,7 +3,6 @@ $icon-height: 20px;
 html {
   box-sizing: content-box;
   font-family: Roboto;
-  font-size: 8px;
 }
 
 a {
@@ -40,6 +39,11 @@ body {
   width: 25%;
 }
 
+#header {
+  display: flex;
+  justify-content: space-between;
+}
+
 .icon {
   height: $icon-height;
   width: $icon-height;
@@ -55,16 +59,10 @@ p {
   font-size: 125%;
 }
 
-#name-and-title {
-  // font-family: Cambria;
-}
-
 #skills {
   // background-color: AliceBlue;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 #skills-and-projects {
