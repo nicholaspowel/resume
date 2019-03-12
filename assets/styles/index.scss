@@ -3,15 +3,24 @@ $icon-height: 20px;
 
 html {
   box-sizing: content-box;
+  font-family: Roboto;
 }
 
 a {
-  color: green;
+  color: blue;
   display: block;
 
   &:hover {
     text-decoration: none;
   }
+}
+
+a,
+li,
+p {
+  height: inherit;
+  margin-bottom: 0;
+  font-size: 1rem;
 }
 
 #background {
@@ -23,6 +32,7 @@ a {
 
 body {
   opacity: 0;
+  color: DarkBlue;
 }
 
 .icon {
@@ -30,12 +40,16 @@ body {
   width: $icon-height;
 }
 
-a,
-li,
-p {
-  height: inherit;
-  margin-bottom: 0;
-  font-size: 1rem;
+.project-text {
+  font-size: 125%;
+}
+
+#name-and-title {
+  // font-family: Cambria;
+}
+
+#skills {
+  // background-color: AliceBlue;
 }
 
 #resume {
@@ -69,7 +83,6 @@ p {
     box-shadow: none;
 
     a {
-      color: black;
       text-decoration: none;
     }
 

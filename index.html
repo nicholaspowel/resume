@@ -7,6 +7,8 @@
 
   <!-- Do not add `link` tags-->
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 
   <!-- Do not add `script` tags-->
   <script src="public/vendor.js" type="text/javascript" charset="utf-8" defer></script>
@@ -26,7 +28,7 @@
       <div id="header" class="d-flex justify-content-between mb-3">
 
         <!--  Name and Title Sub-Section-->
-        <div class="d-flex flex-column">
+        <div id="name-and-title" class="d-flex flex-column">
           <h1 class="my-2 font-weight-bold">David Ko</h1>
           <h5 class="text-muted font-weight-bold">Software Engineer | Full Stack Developer</h5>
           <h5 class="text-muted font-weight-bold">Boston, MA</h5>
@@ -61,9 +63,9 @@
       </div>
 
       <!-- Summary Section-->
-      <div id="summary" class="text-justify my-2 py-3">
-        <span class="font-weight-bold">Summary:</span> Bacon ipsum dolor amet t-bone shankle bresaola turkey tail. Venison hamburger chuck, landjaeger bresaola short ribs doner shoulder spare ribs tail swine pastrami pig. Rump chicken leberkas,
-        t-bone sausage.
+      <div id="summary" class="text-justify my-1 py-2">
+        <span class="font-weight-bold">Summary:</span> I am a software engineer focusing in web development. My drive for self-learning and continuous improvement help me learn and create apps that are functional, are visually impressive, and
+        modular.
         <!-- Summary Section End-->
       </div>
 
@@ -72,10 +74,10 @@
       <div id="skills-and-projects" class="d-flex flex-row">
 
         <!--  Skills Section-->
-        <div id="skills" class="d-flex flex-column my-1 p-0">
+        <div id="skills" class="d-flex flex-column my-1 p-0 mx-3">
 
           <!--  Languages Sub-Section-->
-          <div id="languages" class="my-3 d-flex flex-column justify-content-between mb-2">
+          <div id="languages" class="mt-3 d-flex flex-column justify-content-between mb-2">
             <!--  Languages Header-->
             <div id="languages-header">
               <span class="skills-header font-weight-bold">Languages:</span>
@@ -112,6 +114,11 @@
             </div>
             <!--  Languages Item-->
             <div class="d-flex">
+              <img class="icon mx-1" src="public/images/bash.png" alt="">
+              <p>Bash</p>
+            </div>
+            <!--  Languages Item-->
+            <div class="d-flex">
               <img class="icon mx-1" src="public/images/vba.png" alt="">
               <p>VBA</p>
             </div>
@@ -119,7 +126,7 @@
           </div>
 
           <!--  Libraries Sub-Section-->
-          <div id="libraries" class="my-3 d-flex flex-column justify-content-between">
+          <div id="libraries" class="mt-3 d-flex flex-column justify-content-between">
             <!--  Libraries Header-->
             <div id="libraries-header">
               <span class="skills-header font-weight-bold">Libraries:</span>
@@ -178,10 +185,15 @@
           </div>
 
           <!--  Technologies Sub-Section-->
-          <div id="technologies" class="my-3 d-flex flex-column justify-content-between">
+          <div id="technologies" class="mt-3 d-flex flex-column justify-content-between">
             <!--  Technologies Header-->
             <div id="technologies-header">
               <span class="skills-header font-weight-bold">Technologies:</span>
+            </div>
+            <!--  Technologies Item-->
+            <div class="d-flex">
+              <img class="icon mx-1" src="public/images/atom.png" alt="">
+              <p>Atom</p>
             </div>
             <!--  Technologies Item-->
             <div class="d-flex">
@@ -205,6 +217,11 @@
             </div>
             <!--  Technologies Item-->
             <div class="d-flex">
+              <img class="icon mx-1" src="public/images/handlebars.png" alt="">
+              <p>handlebars</p>
+            </div>
+            <!--  Technologies Item-->
+            <div class="d-flex">
               <img class="icon mx-1" src="public/images/grunt.png" alt="">
               <p>Grunt</p>
             </div>
@@ -222,9 +239,9 @@
           </div>
 
           <!--  Interests Section-->
-          <div id="interests" class="">
+          <div id="interests" class="mt-3 d-flex flex-column justify-content-between">
             <!--  Interests Header-->
-            <span id="interests-header" class="font-weight-bold">Interests</span>
+            <span id="interests-header" class="font-weight-bold">Interests:</span>
             <!--  Interests Item-->
             <div class="d-flex">
               <img class="icon mx-1" src="public/images/smite.png" alt="">
@@ -259,79 +276,107 @@
         <!--  Projects Section-->
         <div id="projects" class="p-0 flex-grow-1">
           <div class="text-center">
-            <h4 class="font-weight-bold border-bottom">Projects</h4>
+            <h4 class="project-text font-weight-bold border-bottom">Projects</h4>
           </div>
 
-          <!--  Project 1 Sub-Section-->
-          <div id="project-1" class="">
-            <a class="" href="https://davidholyko.github.io/dko-tic-tac-toe-client/" target="_blank">
-              <h5 class="project-header font-weight-bold">Front-End Tic-Tac-Toe</h5>
-            </a>
-            <div class="project-description">
-              <ul>
-                <li>Single Page Application created with HTML, CSS, Javascript </li>
-                <li>Includes solution and demonstration for Tic-Tac-Toe for any size </li>
-                <li>Uses Responsive Design Concepts with Bootstrap, jQuery, and CSS</li>
-                <li>Ajax requests sends/receives data from server </li>
-              </ul>
-            </div>
-            <!--  Project 1 Description End -->
-          </div>
+          <!-- Project List -->
+          <div id="projects-list" class="d-flex flex-column-reverse">
 
-          <!--  Project 2 Sub-Section-->
-          <div id="project-2" class="">
-            <h5 class="project-header font-weight-bold">Full Stack Tic-Tac-Toe Part 2</h5>
-            <div class="project-description">
-              <ul>
-                <li>Bacon ipsum dolor amet t-bone shankle bresaola turkey tail. </li>
-                <li>Venison hamburger chuck, landjaeger bresaola short ribs doner shoulder spare ribs </li>
-                <li>tail swine pastrami pig. Rump chicken leberkas, t-bone sausage ground round </li>
-                <li>ribeye flank. Corned beef landjaeger fatback, salami shankle short ribs pancetta </li>
-              </ul>
+            <!--  Project 0 Sub-Section-->
+            <div id="project-0" class="">
+              <a class="" href="https://cardmemorygame.herokuapp.com/" target="_blank">
+                <h5 class="project-text project-header font-weight-bold">Resume in HTML (Ongoing)</h5>
+              </a>
+              <div class="project-description">
+                <ul>
+                  <li class="project-text">Single Page Application created with HTML, CSS, JavaScript</li>
+                  <li class="project-text">Includes clickable hyperlinks to external resources and projects</li>
+                  <li class="project-text">Uses CSS Media Queries for printing </li>
+                  <li class="project-text">Uses Bootstrap</li>
+                </ul>
+              </div>
+              <!--  Project 0 Description End -->
             </div>
-            <!--  Project 2 Description End -->
-          </div>
 
-          <!--  Project 3 Sub-Section-->
-          <div id="project-3" class="">
-            <h5 class="project-header font-weight-bold">Tic-Tac-Toe Part 3</h5>
-            <div class="project-description">
-              <ul>
-                <li>Bacon ipsum dolor amet t-bone shankle bresaola turkey tail. </li>
-                <li>Venison hamburger chuck, landjaeger bresaola short ribs doner shoulder spare ribs </li>
-                <li>Bacon ipsum dolor amet t-bone shankle bresaola turkey tail. </li>
-                <li>Venison hamburger chuck, landjaeger bresaola short ribs doner shoulder spare ribs </li>
-                <li>tail swine pastrami pig. Rump chicken leberkas, t-bone sausage ground round </li>
-                <li>ribeye flank. Corned beef landjaeger fatback, salami shankle short ribs pancetta </li>
-                <li>Venison hamburger chuck, landjaeger bresaola short ribs doner shoulder spare ribs </li>
-                <li>tail swine pastrami pig. Rump chicken leberkas, t-bone sausage ground round </li>
-                <li>ribeye flank. Corned beef landjaeger fatback, salami shankle short ribs pancetta </li>
-              </ul>
+            <!--  Project 1 Sub-Section-->
+            <div id="project-1" class="">
+              <a class="" href="https://cardmemorygame.herokuapp.com/" target="_blank">
+                <h5 class="project-text project-header font-weight-bold">Front-End 8 Card Memory Game</h5>
+              </a>
+              <div class="project-description">
+                <ul>
+                  <li class="project-text">Single Page Application created with HTML, CSS, JavaScript </li>
+                  <li class="project-text">Playable 8 Card Memory Game</li>
+                  <li class="project-text">Uses CSS animation</li>
+                  <li class="project-text">Deployed on Heroku</li>
+                </ul>
+              </div>
+              <!--  Project 1 Description End -->
             </div>
-            <!--  Project 3 Sub-Section End -->
-          </div>
 
-
-          <!--  Project 4 Sub-Section-->
-          <div id="project-4" class="">
-            <h5 class="project-header font-weight-bold">Full Stack Tic-Tac-Toe Part 4</h5>
-            <div class="project-description">
-              <ul>
-                <li>Bacon ipsum dolor amet t-bone shankle bresaola turkey tail. </li>
-                <li>Venison hamburger chuck, landjaeger bresaola short ribs doner shoulder spare ribs </li>
-                <li>tail swine pastrami pig. Rump chicken leberkas, t-bone sausage ground round </li>
-                <li>ribeye flank. Corned beef landjaeger fatback, salami shankle short ribs pancetta </li>
-                <li>tail swine pastrami pig. Rump chicken leberkas, t-bone sausage ground round </li>
-                <li>ribeye flank. Corned beef landjaeger fatback, salami shankle short ribs pancetta </li>
-                <li>Venison hamburger chuck, landjaeger bresaola short ribs doner shoulder spare ribs </li>
-                <li>tail swine pastrami pig. Rump chicken leberkas, t-bone sausage ground round </li>
-                <li>ribeye flank. Corned beef landjaeger fatback, salami shankle short ribs pancetta </li>
-                <li>tail swine pastrami pig. Rump chicken leberkas, t-bone sausage ground round </li>
-                <li>ribeye flank. Corned beef landjaeger fatback, salami shankle short ribs pancetta </li>
-                <li>Venison hamburger chuck, landjaeger bresaola short ribs doner shoulder spare ribs </li>
-              </ul>
+            <!--  Project 2 Sub-Section-->
+            <div id="project-2" class="">
+              <a class="" href="https://davidholyko.github.io/dko-tic-tac-toe-client/" target="_blank">
+                <h5 class="project-text project-header font-weight-bold">Front-End Tic-Tac-Toe</h5>
+              </a>
+              <div class="project-description">
+                <ul>
+                  <li class="project-text">Single Page Application created with HTML, CSS, JavaScript </li>
+                  <li class="project-text">Includes recursive solution and demonstration for Tic-Tac-Toe for any size </li>
+                  <li class="project-text">Uses Responsive Design concepts with Bootstrap, jQuery, and SCSS</li>
+                  <li class="project-text">Ajax requests sends/receives data from server </li>
+                  <li class="project-text">Deployed on Github Pages</li>
+                </ul>
+              </div>
+              <!--  Project 2 Description End -->
             </div>
-            <!--  Project 4 Sub-Section End -->
+
+            <!--  Project 3 Sub-Section-->
+            <div id="project-3" class="">
+
+              <a href="https://davidholyko.github.io/dko-brain-age-front-end/" target="_blank">
+                <h5 class="project-text project-header font-weight-bold">Full Stack Brain Age Remake (In Progress)</h5>
+              </a>
+              <div class="project-description">
+                <ul>
+                  <li class="project-text">Single Page in JavaScript, HTML, CSS, and Ruby</li>
+                  <li class="project-text">Interactive and Replayable 60 second logic game</li>
+                  <li class="project-text">Uses Procedural Generation to create logic questions</li>
+                  <li class="project-text">Uses Ruby on Rails library for Back-End</li>
+                  <li class="project-text">Uses Responsive-Design concepts with Bootstrap, jQuery, and SCSS</li>
+                  <li class="project-text">Uses CRUD Api design concepts</li>
+                  <li class="project-text">Ajax requests sends/receives data to server</li>
+                  <li class="project-text">Server has custom routes and serializations</li>
+                  <li class="project-text">Front-End deployed on Github Pages; Back-End deployed on Heroku</li>
+                </ul>
+              </div>
+              <!--  Project 3 Sub-Section End -->
+            </div>
+
+
+            <!--  Project 4 Sub-Section-->
+            <div id="project-4" class="">
+              <!-- <h5 class="project-header font-weight-bold">Full Stack Tic-Tac-Toe Part 4</h5> -->
+              <div class="project-description">
+                <ul>
+                  <!-- <li>Bacon ipsum dolor amet t-bone shankle bresaola turkey tail. </li>
+                  <li>Venison hamburger chuck, landjaeger bresaola short ribs doner shoulder spare ribs </li>
+                  <li>tail swine pastrami pig. Rump chicken leberkas, t-bone sausage ground round </li>
+                  <li>ribeye flank. Corned beef landjaeger fatback, salami shankle short ribs pancetta </li>
+                  <li>tail swine pastrami pig. Rump chicken leberkas, t-bone sausage ground round </li>
+                  <li>ribeye flank. Corned beef landjaeger fatback, salami shankle short ribs pancetta </li>
+                  <li>Venison hamburger chuck, landjaeger bresaola short ribs doner shoulder spare ribs </li>
+                  <li>tail swine pastrami pig. Rump chicken leberkas, t-bone sausage ground round </li>
+                  <li>ribeye flank. Corned beef landjaeger fatback, salami shankle short ribs pancetta </li>
+                  <li>tail swine pastrami pig. Rump chicken leberkas, t-bone sausage ground round </li>
+                  <li>ribeye flank. Corned beef landjaeger fatback, salami shankle short ribs pancetta </li>
+                  <li>Venison hamburger chuck, landjaeger bresaola short ribs doner shoulder spare ribs </li> -->
+                </ul>
+              </div>
+              <!--  Project 4 Sub-Section End -->
+            </div>
+
+            <!-- Projects List End -->
           </div>
           <!--  Projects Section End -->
         </div>
@@ -367,51 +412,51 @@
 
         <!--  Job 2 Info-->
         <div id="job-2" class="job flex-column">
-          <!-- <div class="top d-flex flex-row"> -->
-          <!-- <div class="company font-weight-bold">Manning Personnel Group</div>
+          <div class="top d-flex flex-row">
+            <!-- <div class="company font-weight-bold">Manning Personnel Group</div>
             <div class="location mx-2 font-italic">Boston, MA</div>
             <div class="date-duration ml-auto">June 2018 - July 2018</div>
           </div>
           <div class="job-title font-weight-bold">Compliance Services Specialist</div> -->
-          <!-- Job Description -->
-          <div class="job-description">
-            <ul>
-              <!-- <li>Bacon ipsum dolor amet t-bone shankle bresaola turkey tail. </li>
+            <!-- Job 2 Description -->
+            <div class="job-description">
+              <!-- <ul>
+              <li>Bacon ipsum dolor amet t-bone shankle bresaola turkey tail. </li>
               <li>Venison hamburger chuck, landjaeger bresaola short ribs doner shoulder spare ribs </li>
               <li>tail swine pastrami pig. Rump chicken leberkas, t-bone sausage ground round </li>
-              <li>ribeye flank. Corned beef landjaeger fatback, salami shankle short ribs pancetta </li> -->
-            </ul>
-            <!--  Job 2 Description End-->
+              <li>ribeye flank. Corned beef landjaeger fatback, salami shankle short ribs pancetta </li>
+            </ul> -->
+              <!--  Job 2 Description End-->
+            </div>
+            <!--  Job 2 Info End-->
           </div>
-          <!--  Job 2 Info End-->
+          <!--  Work History Section End -->
         </div>
-        <!--  Work History Section End -->
-      </div>
 
 
-      <!--  Education Section-->
-      <div id="education">
-        <!-- Education Header-->
-        <h4 id="education-header" class="font-weight-bold text-center border-bottom">Education</h4>
-        <!-- Education Item-->
-        <div class="d-flex">
-          <span class="font-weight-bold">General Assembly:</span>
-          <span class="mx-1"> Full time 500+ hour Web Development Immersive</span>
-          <span class="date-duration ml-auto">Jan 2019 - Present</span>
+        <!--  Education Section-->
+        <div id="education">
+          <!-- Education Header-->
+          <h4 id="education-header" class="font-weight-bold text-center border-bottom">Education</h4>
+          <!-- Education Item-->
+          <div class="d-flex">
+            <span class="font-weight-bold">General Assembly:</span>
+            <span class="mx-1"> Full time 500+ hour Web Development Immersive</span>
+            <span class="date-duration ml-auto">Jan 2019 - Present</span>
+          </div>
+          <!-- Education Item-->
+          <div class="d-flex">
+            <span class="font-weight-bold">UMass Amherst:</span>
+            <span class="mx-1">Coursework in Operations Information Management</span>
+            <span class="date-duration ml-auto">Sept 2013 - May 2017</span>
+          </div>
+          <!--  Education Section End -->
         </div>
-        <!-- Education Item-->
-        <div class="d-flex">
-          <span class="font-weight-bold">UMass Amherst:</span>
-          <span class="mx-1">Coursework in Operations Information Management</span>
-          <span class="date-duration ml-auto">Sept 2013 - May 2018</span>
-        </div>
-        <!--  Education Section End -->
+        <!--  Resume Section End -->
       </div>
-      <!--  Resume Section End -->
+      <!--  Background Section End -->
     </div>
-    <!--  Background Section End -->
-  </div>
-  <!-- Body End -->
+    <!-- Body End -->
 </body>
 
 </html>
