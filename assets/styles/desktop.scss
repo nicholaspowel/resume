@@ -39,6 +39,16 @@ body {
   width: 25%;
 }
 
+.date-duration {
+  margin-left: auto;
+}
+
+.education-item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 #header {
   display: flex;
   justify-content: space-between;

@@ -12,6 +12,10 @@
       justify-content: center;
     }
 
+    .date-duration {
+      margin-left: 0;
+    }
+
     #name-and-title {
       text-align: center;
       width: 100%;
@@ -30,6 +34,10 @@
       flex-direction: row;
       justify-content: space-around;
       flex-wrap: wrap;
+    }
+
+    .education-item {
+      flex-direction: column;
     }
   }
 }
