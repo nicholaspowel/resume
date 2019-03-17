@@ -75,7 +75,7 @@ body {
 
 p {
   height: inherit;
-  margin-bottom: 0;
+  margin-bottom: 2px;
   font-size: 1rem;
 }
 
@@ -93,7 +93,7 @@ p {
 
 .skills-header {
   font-size: 150%;
-  margin-bottom: 0.5rem;
+  margin-bottom: 25px;
   background-color: #446F6F;
 }
 
@@ -110,7 +110,6 @@ p {
 
 #resume {
   width: 1050px;
-  // padding: 50px;
   box-shadow: 5px 10px;
   overflow: hidden;
   background-color: white;
