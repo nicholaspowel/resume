@@ -106,6 +106,14 @@ p {
   padding: 50px 0;
   background-color: DarkSlateGrey;
   margin-right: 1rem;
+
+  & > div > a > span {
+    color: white;
+  }
+
+  & > div > div > a > p {
+    color: white;
+  }
 }
 
 #skills-and-projects {
