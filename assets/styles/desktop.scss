@@ -84,6 +84,17 @@ p {
   }
 }
 
+#print {
+  box-shadow: 0 5px 15px rgba(200,200,200,0.7);
+  background-color: rgba(32,32,32,0.5);
+  color: white;
+
+  &:hover {
+    background-color: white;
+    color: black;
+  }
+}
+
 #projects {
   padding: 50px 50px 50px 25px;
 }

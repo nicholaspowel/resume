@@ -9,4 +9,6 @@
 $(() => {
   console.log('JavaScript is running...')
   $('body').fadeTo('fast', 1)
+
+  $('#print').on('click', () => print())
 })
