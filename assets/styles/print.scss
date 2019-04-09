@@ -16,6 +16,7 @@
     box-shadow: none;
     color: black;
     background-color: white;
+    -webkit-print-color-adjust: exact;
 
     a {
       text-decoration: none;
@@ -29,5 +30,9 @@
   #skills-and-projects {
     height: 100vh;
     width: 100vw;
+  }
+
+  #print {
+    display: none;
   }
 }
