@@ -6,6 +6,8 @@ const projects = [
     title: 'Stackoverko',
     summary: 'A question-response website when Stackoverflow not enough',
     skills: 'JavaScript HTML CSS Ruby React.js Rails PostgreSQL Axios',
+    deployed: 'https://davidholyko.github.io/stackoverko-client',
+    repo: 'https://github.com/davidholyko/stackoverko-client',
     description: [
       'Built Front End with React.js to emphasize modularity and boost performance',
       'Spearheaded a complex API that utilizes numerous one to many relationships and serializes nested associations'
@@ -15,6 +17,8 @@ const projects = [
     title: 'LetterBox',
     summary: 'A user friendly, text-only blogsite for cat lovers everywhere',
     skills: 'JavaScript HTML CSS Express.js MongoDB jQuery Handlebars.js',
+    deployed: 'https://m-d-h-s.github.io/mdhs-blog-frontend',
+    repo: 'https://github.com/davidholyko/mdhs-blog-frontend',
     description: [
       'Produced a blogsite that allows users use CRUD actions on resources',
       'Coordinated with team to plan wireframes and entity relationship diagrams',
@@ -27,6 +31,8 @@ const projects = [
     title: 'Brain Age',
     summary: 'A game application inspired by Brain Age for the Nintendo DS',
     skills: 'JavaScript HTML CSS Ruby Rails jQuery Handlebars.js Math.js Chart.js Bootstrap PostgreSQL',
+    repo: 'https://github.com/davidholyko/dko-brain-age-front-end',
+    deployed: 'https://davidholyko.github.io/dko-brain-age-front-end',
     description: [
       'Envisioned a responsive user-friendly puzzle game that helps people think faster',
       'Implemented a Procedural Generation Algorithm that produces multiple choice logic',
