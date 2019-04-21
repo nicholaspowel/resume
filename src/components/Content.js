@@ -4,7 +4,7 @@ import './css/Content.scss'
 import Resume from './Resume'
 
 const Content = () => (
-  <div className="content">
+  <div id="content">
     <Resume />
   </div>
 )

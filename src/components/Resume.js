@@ -5,7 +5,7 @@ import InfoColumn from './InfoColumn'
 import ContentColumn from './ContentColumn'
 
 const Resume = () => (
-  <div className="resume">
+  <div id="resume">
     <InfoColumn/>
     <ContentColumn/>
   </div>
