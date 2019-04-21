@@ -6,8 +6,7 @@ const ContentProjectItem = ({ project }) => {
 
   return (
     <div className="content-project-item">
-      <p>{project.title}</p>
-      <p>{project.summary}</p>
+      <p><span className="font-weight-bold">{project.title}:</span> {project.summary}</p>
       <div className="d-flex flex-wrap">
         {skills.map((skill, index) => <span key={index} className={skillClasses}>{skill}</span>)}
       </div>
