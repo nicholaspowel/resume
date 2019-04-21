@@ -1,36 +1,39 @@
 $charcoal: #bbb;
 
 .resume {
-  margin: 100px 0;
+  margin: 50px 0;
   display: flex;
+  flex-direction: column;
   width: 1150px;
   max-width: 1150px;
   min-height: calc(1500px);
   background-color: white;
+  color: black;
 }
-@media (max-width: 600px) {
-  .column {
-    flex-direction: column;
-    font-size: 0.7em;
-    height: auto;
-    padding: 10px;
-
-    h1 {
-      font-size: 2.5em;
-    }
-  }
-}
-@media (max-width: 450px) {
-  .column > nav {
-    flex-direction: column;
-    width: 100%;
-
-    a,
-    span {
-      border: 1px solid $charcoal;
-      margin-bottom: 5px;
-      text-align: center;
-      width: 80%;
-    }
-  }
-}
+//
+// @media (max-width: 600px) {
+//   .column {
+//     flex-direction: column;
+//     font-size: 0.7em;
+//     height: auto;
+//     padding: 10px;
+//
+//     h1 {
+//       font-size: 2.5em;
+//     }
+//   }
+// }
+// @media (max-width: 450px) {
+//   .column > nav {
+//     flex-direction: column;
+//     width: 100%;
+//
+//     a,
+//     span {
+//       border: 1px solid $charcoal;
+//       margin-bottom: 5px;
+//       text-align: center;
+//       width: 80%;
+//     }
+//   }
+// }
