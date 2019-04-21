@@ -1,8 +1,8 @@
 import React from 'react'
 
 import './css/Resume.scss'
-import InfoColumn from './InfoColumn'
-import ContentColumn from './ContentColumn'
+import InfoColumn from './columns/InfoColumn'
+import ContentColumn from './columns/ContentColumn'
 
 const Resume = () => (
   <div id="resume">
