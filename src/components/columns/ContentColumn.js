@@ -9,8 +9,8 @@ const ContentColumn = () => (
   <div id="content-column">
     <ContentSummary />
     <ContentProjects />
-    <ContentWorkHistory />
     <ContentEducation />
+    <ContentWorkHistory />
   </div>
 )
 

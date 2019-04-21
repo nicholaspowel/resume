@@ -1,6 +1,7 @@
 @media print {
   @page {
     margin: 0;
+    -webkit-print-color-adjust: exact;
   }
 
   #header {
@@ -12,6 +13,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
+    -webkit-print-color-adjust: exact;
   }
 
   #app,
@@ -23,6 +25,14 @@
   body,
   html {
     height: 100%;
+  }
+
+  i {
+    display: none;
+  }
+
+  .icon {
+    display: none;
   }
 
   .img {
