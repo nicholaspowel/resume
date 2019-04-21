@@ -9,6 +9,7 @@ $charcoal: #bbb;
   min-height: calc(1500px);
   background-color: white;
   color: black;
+  position: absolute;
 }
 @media (max-width: 600px) {
   .column {
