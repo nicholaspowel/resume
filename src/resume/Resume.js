@@ -9,6 +9,7 @@ const Resume = () => (
     <h1>eaaaaaaaaaaa</h1>
     <h1>eaaaaaaaaaaa</h1>
     <h1>eaaaaaaaaaaa</h1>
+    <h2>testing</h2>
   </div>
 )
 
