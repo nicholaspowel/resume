@@ -31,7 +31,7 @@ const InfoTechnologies = () => {
   ]
 
   return (
-    <div>
+    <div className="info-section">
       <h3 className="info-category-header">Tools/Technologies</h3>
       {technologies.map((technology, index) => <InfoTechnologiesItem key={index} technology={technology}/>)}
     </div>

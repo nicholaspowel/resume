@@ -27,7 +27,7 @@ const InfoInterests = () => {
   ]
 
   return (
-    <div>
+    <div className="info-section">
       <h3 className="info-category-header">Interests</h3>
       {interests.map((interest, index) => <InfoInterestsItem key={index} interest={interest}/>)}
     </div>

@@ -31,7 +31,7 @@ const InfoLanguages = () => {
   ]
 
   return (
-    <div>
+    <div className="info-section">
       <h3 className="info-category-header">Languages</h3>
       {languages.map((language, index) => <InfoLanguagesItem key={index} language={language}/>)}
     </div>

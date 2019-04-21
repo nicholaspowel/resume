@@ -31,7 +31,7 @@ const InfoSkills = () => {
   ]
 
   return (
-    <div>
+    <div className="info-section">
       <h3 className="info-category-header">Libraries/Frameworks</h3>
       {skills.map((skill, index) => <InfoSkillsItem key={index} skill={skill}/>)}
     </div>
