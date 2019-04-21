@@ -1,11 +1,9 @@
-$charcoal: #bbb;
-
 #header {
   align-items: center;
-  border-bottom: 1px solid red;
   padding: 0 20px;
   display: flex;
-  background-color: blue;
+  justify-content: space-around;
+  background-color: rgba(0,0,0,0.5);
   height: 50px;
   max-width: 100vw;
   width: 100vw;
@@ -14,8 +12,28 @@ $charcoal: #bbb;
 #header > nav {
   align-items: center;
   display: flex;
-  flex-grow: 1;
-  justify-content: flex-end;
+}
+
+.print {
+  &:hover {
+    color: green;
+    background-color: white;
+  }
+}
+
+.portfolio {
+  &:hover {
+    color: blue;
+    background-color: white;
+  }
+}
+
+.portfolio-link {
+  color: white;
+
+  &:hover {
+    color: blue;
+  }
 }
 @media (max-width: 600px) {
   #header {
@@ -36,7 +54,7 @@ $charcoal: #bbb;
 
     a,
     span {
-      border: 1px solid $charcoal;
+      border: 1px solid #bbb;
       margin-bottom: 5px;
       text-align: center;
       width: 80%;

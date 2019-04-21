@@ -1,3 +1,5 @@
+@import 'Print';
+
 body,
 html {
   width: 100vw;
@@ -13,6 +15,12 @@ h5,
 p,
 span {
   margin: 0;
+}
+
+a {
+  &:hover {
+    text-decoration: none;
+  }
 }
 
 #app {
