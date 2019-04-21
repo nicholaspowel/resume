@@ -1,5 +1,4 @@
 import React from 'react'
-import '../../css/Info.scss'
 import InfoLanguagesItem from './InfoLanguagesItem'
 
 const InfoLanguages = () => {

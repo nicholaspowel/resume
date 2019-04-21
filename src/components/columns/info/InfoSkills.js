@@ -1,5 +1,4 @@
 import React from 'react'
-import '../../css/Info.scss'
 import InfoSkillsItem from './InfoSkillsItem'
 
 const InfoSkills = () => {

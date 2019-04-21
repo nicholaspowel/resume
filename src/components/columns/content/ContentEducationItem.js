@@ -5,12 +5,13 @@ const ContentProjectItem = ({ education }) => {
     <div className="content-education-item">
       <div className="d-flex justify-content-between">
         <div>
-          <span className="font-weight-bold">{education.school} </span>
+          <span className="font-weight-bold">{education.school}</span>
+          <span> | </span>
           <span className="font-italic">{education.location}</span>
         </div>
         <span className="ml-auto">{education.date}</span>
       </div>
-      {education.coursework ? <p>Coursework:</p> : ''}
+      {education.coursework ? <span>Coursework:</span> : ''}
       <ul>
         {education.description.map((bullet, index) => <li key={index}>{bullet}</li>)}
       </ul>

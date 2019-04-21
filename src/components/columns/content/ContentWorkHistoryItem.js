@@ -5,7 +5,8 @@ const ContentProjectItem = ({ work }) => {
     <div className="content-work-item">
       <div className="d-flex justify-content-between">
         <div>
-          <span className="font-weight-bold">{work.company} </span>
+          <span className="font-weight-bold">{work.company}</span>
+          <span> | </span>
           <span className="font-italic">{work.location}</span>
         </div>
         <span className="ml-auto">{work.date}</span>

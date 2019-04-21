@@ -10,7 +10,7 @@ const ContentProjectItem = ({ project }) => {
         <span className="font-weight-bold">{project.title}: </span>
         <span>{project.summary}</span>
       </a>
-      <div className="d-flex flex-wrap">
+      <div className="d-flex flex-wrap mb-3">
         {skills.map((skill, index) => <span key={index} className={skillClasses}>{skill}</span>)}
       </div>
       <ul>

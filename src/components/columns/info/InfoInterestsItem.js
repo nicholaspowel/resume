@@ -1,5 +1,4 @@
 import React from 'react'
-import '../../css/Info.scss'
 import cooking from '../../../images/cooking.png'
 import football from '../../../images/football.png'
 import smite from '../../../images/smite.png'

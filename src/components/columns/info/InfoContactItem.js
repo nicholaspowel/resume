@@ -1,5 +1,4 @@
 import React from 'react'
-import '../../css/Info.scss'
 import gmail from '../../../images/gmail.png'
 import linkedin from '../../../images/linkedin.png'
 import phone from '../../../images/phone.png'

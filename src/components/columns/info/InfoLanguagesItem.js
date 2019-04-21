@@ -1,5 +1,4 @@
 import React from 'react'
-import '../../css/Info.scss'
 
 const InfoLanguagesItem = ({ language }) => (
   <div className="info-item">

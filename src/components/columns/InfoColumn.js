@@ -1,5 +1,4 @@
 import React from 'react'
-import '../css/Info.scss'
 import InfoHeader from './info/InfoHeader'
 import InfoContact from './info/InfoContact'
 import InfoLanguages from './info/InfoLanguages'
@@ -17,9 +16,9 @@ const InfoColumn = () => (
     <InfoInterests />
 
     <div className="info-item mt-auto pb-5 d-flex flex-column">
-      <p>This resume is made with React.js and</p>
-      <p>is deployed on Github Pages:</p>
-      <p className="mt-3">davidholyko.github.io/resume</p>
+      <span>This resume is made with React.js and</span>
+      <span>is deployed on Github Pages:</span>
+      <span className="mt-3">davidholyko.github.io/resume</span>
     </div>
   </div>
 )

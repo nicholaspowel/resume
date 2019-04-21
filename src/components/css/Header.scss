@@ -21,9 +21,19 @@
   }
 }
 
-.portfolio {
+.toggle-css {
   &:hover {
-    color: blue;
+    color: #17a2b8;
+    background-color: white;
+  }
+}
+
+.btn-portfolio {
+  color: white;
+  background-color: #007bff;
+
+  &:hover {
+    color: #007bff;
     background-color: white;
   }
 }
@@ -32,32 +42,6 @@
   color: white;
 
   &:hover {
-    color: blue;
-  }
-}
-@media (max-width: 600px) {
-  #header {
-    flex-direction: column;
-    font-size: 0.7em;
-    height: auto;
-    padding: 10px;
-
-    h1 {
-      font-size: 2.5em;
-    }
-  }
-}
-@media (max-width: 450px) {
-  #header > nav {
-    flex-direction: column;
-    width: 100%;
-
-    a,
-    span {
-      border: 1px solid #bbb;
-      margin-bottom: 5px;
-      text-align: center;
-      width: 80%;
-    }
+    color: #007bff;
   }
 }

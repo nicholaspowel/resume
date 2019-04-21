@@ -4,7 +4,7 @@ import ContentProjectItem from './ContentProjectItem'
 const projects = [
   {
     title: 'Stackoverko',
-    summary: 'A question-response website when Stackoverflow not enough',
+    summary: 'A question-response website for developers',
     skills: 'JavaScript HTML CSS Ruby React.js Rails PostgreSQL Axios',
     deployed: 'https://davidholyko.github.io/stackoverko-client',
     repo: 'https://github.com/davidholyko/stackoverko-client',

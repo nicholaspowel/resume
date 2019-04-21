@@ -1,5 +1,4 @@
 import React from 'react'
-import '../../css/Info.scss'
 
 const InfoHeader = () => (
   <div id="info-header">
