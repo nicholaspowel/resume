@@ -4,7 +4,10 @@ const ContentProjectItem = ({ education }) => {
   return (
     <div className="content-education-item">
       <div className="d-flex justify-content-between">
-        <p><span className="font-weight-bold">{education.school}</span> {education.location}</p>
+        <div>
+          <span className="font-weight-bold">{education.school} </span>
+          <span className="font-italic">{education.location}</span>
+        </div>
         <span className="ml-auto">{education.date}</span>
       </div>
       {education.coursework ? <p>Coursework:</p> : ''}

@@ -15,6 +15,11 @@ const InfoColumn = () => (
     <InfoSkills />
     <InfoTechnologies />
     <InfoInterests />
+
+    <div className="info-item mt-auto pb-5 d-flex flex-column">
+      <p>This resume is hosted on github pages:</p>
+      <p>davidholyko.github.io/resume</p>
+    </div>
   </div>
 )
 

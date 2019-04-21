@@ -15,9 +15,9 @@ const educations = [
   },
   {
     date: 'Sept 2013 - Sept 2015',
-    school: 'UMass Amherst, Isenberg School of Business',
+    school: 'UMass Amherst',
     concentration: 'Operations Information Management',
-    location: 'Boston, MA',
+    location: 'Amherst, MA',
     coursework: true,
     description: [
       'Computer Science: Intro to Java, Data Structures, Game Design, Data Science',
@@ -31,7 +31,7 @@ const educations = [
 
 const ContentEducation = () => (
   <div className="content-education-history">
-    <h3 className="text-center border-bottom my-3">Work History</h3>
+    <h3 className="text-center border-bottom my-3">Education</h3>
     {educations.map((education, index) => <ContentEducationItem key={index} education={education} />)}
   </div>
 )
