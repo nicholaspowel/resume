@@ -3,9 +3,9 @@ import '../../css/Info.scss'
 
 const InfoHeader = () => (
   <div id="info-header">
-    <h1>David Ko</h1>
-    <h4>Software Engineer | Full Stack Web Developer</h4>
-    <h4>Boston, MA</h4>
+    <h1 className="name">David Ko</h1>
+    <h4 className="title">Software Engineer</h4>
+    <h4 className="title">Boston, MA</h4>
   </div>
 )
 
