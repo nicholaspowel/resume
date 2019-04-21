@@ -2,28 +2,29 @@ import React, { Component } from 'react'
 import './css/index.scss'
 
 // import './css/Info-inverse.scss'
-import './css/Info.scss'
 
 import Header from './Header'
 import Container from './Container'
-
-const toggleCSS = () => {}
 
 class App extends Component {
   constructor () {
     super()
 
     this.state = {
-      defaultCSS: './css/Info.scss',
-      inverseCSS: './css/Info-inverse.scss'
+      inverse: false
     }
   }
 
+  toggleInverse = () => this.setState({ inverse: !this.state.inverse })
+
   render () {
+    const { inverse } = this.state
+
     return (
       <div id="app">
-        <Header toggleCSS={toggleCSS}/>
-        <Container />
+        <link rel="stylesheet" type="text/css" href='./css/Info.scss' />
+        <Header toggleInverse={this.toggleInverse}/>
+        <Container inverse={inverse}/>
       </div>
     )
   }

@@ -2,13 +2,13 @@ import React from 'react'
 
 import './css/Header.scss'
 
-const Header = ({ toggleCSS }) => (
+// <button className="btn btn-info toggle-css" onClick={toggleInverse}>
+// <h4 className="m-0">Toggle CSS</h4>
+// </button>
+const Header = ({ toggleInverse }) => (
   <div id="header">
     <button className="btn btn-success print" onClick={print}>
       <h4 className="m-0">Print or Save as PDF</h4>
-    </button>
-    <button className="btn btn-info toggle-css" onClick={toggleCSS}>
-      <h4 className="m-0">Toggle CSS</h4>
     </button>
     <button className="btn btn-portfolio">
       <a href="https://davidholyko.github.io" target="_blank" rel="noopener noreferrer">
