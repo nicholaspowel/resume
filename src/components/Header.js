@@ -2,10 +2,7 @@ import React from 'react'
 
 import './css/Header.scss'
 
-// <button className="btn btn-info toggle-css" onClick={toggleInverse}>
-// <h4 className="m-0">Toggle CSS</h4>
-// </button>
-const Header = ({ toggleInverse }) => (
+const Header = () => (
   <div id="header">
     <button className="btn btn-success print" onClick={print}>
       <h4 className="m-0">Print or Save as PDF</h4>

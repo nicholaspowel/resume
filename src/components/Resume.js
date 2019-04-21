@@ -5,16 +5,6 @@ import InfoColumn from './columns/InfoColumn'
 import ContentColumn from './columns/ContentColumn'
 
 class Resume extends Component {
-  constructor (props) {
-    super(props)
-
-    const { inverse } = this.props
-
-    this.state = {
-      inverse
-    }
-  }
-
   render () {
     return (
       <div id="resume">
