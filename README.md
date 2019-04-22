@@ -1,7 +1,7 @@
 # Installation
 
 
-Fork and clone
+Clone
 
 ```
 npm i
@@ -19,9 +19,10 @@ npm run deploy
 
 # Don't forget to replace
 
--[ ] meta og:image tag in public/index.html line 11
--[ ] link portfolio link
--[ ] project links
+- [ ] meta og:image tag in public/index.html line 11
+- [ ] link portfolio link
+- [ ] project links
+
 
 
 ```
