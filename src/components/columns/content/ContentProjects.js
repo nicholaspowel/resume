@@ -3,34 +3,36 @@ import ContentProjectItem from './ContentProjectItem'
 
 const projects = [
   {
-    title: 'Stackoverko',
+    title: 'StackOverKo',
     summary: 'A question-response website for developers',
     skills: 'JavaScript HTML CSS Ruby React.js Rails PostgreSQL Axios',
     deployed: 'https://davidholyko.github.io/stackoverko-client',
     repo: 'https://github.com/davidholyko/stackoverko-client',
     description: [
+      'Launched a open forum website that helps developers find specific answers',
       'Built Front End with React.js to emphasize modularity and boost performance',
-      'Spearheaded a complex API that utilizes numerous one to many relationships and serializes nested associations'
+      'Spearheaded a complex API that utilizes numerous one to many relationships and serializes nested associations',
+      'Incorporated various open-source Node packages such as Markdown.js, Prism.js, Bootstrap'
     ]
   },
   {
     title: 'LetterBox',
     summary: 'A user friendly, text-only blogsite for cat lovers everywhere',
-    skills: 'JavaScript HTML CSS Express.js MongoDB jQuery Handlebars.js',
+    skills: 'JavaScript HTML CSS Express.js MongoDB jQuery Handlebars.js Agile Bootstrap Mobile-Design Responsive-Design',
     deployed: 'https://m-d-h-s.github.io/mdhs-blog-frontend',
     repo: 'https://github.com/davidholyko/mdhs-blog-frontend',
     description: [
       'Produced a blogsite that allows users use CRUD actions on resources',
-      'Coordinated with team to plan wireframes and entity relationship diagrams',
-      'Engineered Handlebars template for dynamic HTML generation',
-      'Consolidated code into reducable and modular bits for future improvement',
+      'Collborated with group according to product development methodologies including Agile',
+      'Coordinated with team to plan wireframes and Entity Relationship Diagrams',
+      'Engineered Handlebars.js template for dynamic HTML generation',
       'Executed Responsive-Design and Modile-Friendly format for usability'
     ]
   },
   {
     title: 'Brain Age',
     summary: 'A game application inspired by Brain Age for the Nintendo DS',
-    skills: 'JavaScript HTML CSS Ruby Rails jQuery Handlebars.js Math.js Chart.js Bootstrap PostgreSQL',
+    skills: 'JavaScript HTML CSS Ruby Rails jQuery Handlebars.js Math.js Chart.js Bootstrap PostgreSQL Mobile-Design Responsive-Design',
     repo: 'https://github.com/davidholyko/dko-brain-age-front-end',
     deployed: 'https://davidholyko.github.io/dko-brain-age-front-end',
     description: [
