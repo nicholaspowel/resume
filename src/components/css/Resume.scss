@@ -1,9 +1,11 @@
 #resume {
   display: flex;
   flex-direction: row;
-  width: 1150px;
-  max-width: 1150px;
-  min-height: calc(1500px);
+  width: 850px;
+  max-width: 850px;
+  height: 1100px;
+  max-height: 1100px;
+  overflow: hidden;
   background-color: white;
   color: black;
   position: absolute;

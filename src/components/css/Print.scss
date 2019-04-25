@@ -1,9 +1,10 @@
+@page {
+  size: 8.5in 11in;
+  margin: 0;
+  -webkit-print-color-adjust: exact;
+  overflow: hidden;
+}
 @media print {
-  @page {
-    margin: 0;
-    -webkit-print-color-adjust: exact;
-  }
-
   #header {
     display: none;
     height: 0 !important;
