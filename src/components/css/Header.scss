@@ -14,38 +14,12 @@
   display: flex;
 }
 
-.download {
-  & > * {
-    color: white;
-  }
-
-  &:hover {
-    color: green;
-    background-color: white;
-  }
+a:hover {
+  text-decoration: none;
 }
 
-.toggle-css {
-  &:hover {
-    color: #17a2b8;
-    background-color: white;
-  }
-}
-
-.btn-portfolio {
+.btn-link-text {
   color: white;
-  background-color: #007bff;
-
-  &:hover {
-    color: #007bff;
-    background-color: white;
-  }
-}
-
-.portfolio-link {
-  color: white;
-
-  &:hover {
-    color: #007bff;
-  }
+  margin: 0;
+  text-decoration: none;
 }
