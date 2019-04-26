@@ -4,8 +4,10 @@ import './css/Header.scss'
 
 const Header = () => (
   <div id="header">
-    <button className="btn btn-success print" onClick={print}>
-      <h4 className="m-0">Print or Save as PDF</h4>
+    <button className="btn btn-success download">
+      <a href="../resume_pdfs/David_Ko_Software_Engineer.pdf" download>
+        <h4 className="m-0">Download PDF</h4>
+      </a>
     </button>
     <button className="btn btn-portfolio">
       <a href="https://davidholyko.github.io" target="_blank" rel="noopener noreferrer">

@@ -14,7 +14,11 @@
   display: flex;
 }
 
-.print {
+.download {
+  & > * {
+    color: white;
+  }
+
   &:hover {
     color: green;
     background-color: white;
