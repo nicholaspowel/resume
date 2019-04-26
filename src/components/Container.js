@@ -1,6 +1,4 @@
 import React from 'react'
-
-import './css/Container.scss'
 import Resume from './Resume'
 import src from '../images/background.webp'
 

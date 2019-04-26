@@ -1,6 +1,4 @@
 import React, { Component } from 'react'
-
-import './css/Resume.scss'
 import InfoColumn from './columns/InfoColumn'
 import ContentColumn from './columns/ContentColumn'
 
