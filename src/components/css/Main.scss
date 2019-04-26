@@ -2,6 +2,7 @@ body,
 html {
   width: 100vw;
   max-width: 100vw;
+  max-height: 100vh;
   overflow-x: hidden;
 }
 
@@ -21,4 +22,14 @@ a {
   &:hover {
     text-decoration: none;
   }
+}
+
+html {
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+  /* make scrollbar transparent */
 }
