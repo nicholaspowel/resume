@@ -6,8 +6,6 @@ import InfoSkills from './info/InfoSkills'
 import InfoTechnologies from './info/InfoTechnologies'
 import InfoInterests from './info/InfoInterests'
 
-import '../css/Info.scss'
-
 const InfoColumn = () => (
   <div id="info-column">
     <InfoHeader />
