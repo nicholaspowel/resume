@@ -4,7 +4,7 @@ import React from 'react'
 const Header = () => (
   <div id="header">
     <button className="btn btn-success">
-      <a href="https://drive.google.com/open?id=1r3NZ9NWDL-KIOzwNFutuRQOsmLDy3JQ_" target="_blank" rel="noopener noreferrer">
+      <a href="https://drive.google.com/file/d/1vahplrGTOF0cIIOdbUiYnIZCB7ArPA0Q/view" target="_blank" rel="noopener noreferrer">
         <h4 className="btn-link-text">Download PDF</h4>
       </a>
     </button>
