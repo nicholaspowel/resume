@@ -16,8 +16,8 @@ const InfoColumn = () => (
     <InfoInterests />
 
     <div className="info-item mt-auto pb-5 d-flex flex-column">
-      <span>This resume is made with React.js and</span>
-      <span>is deployed on Github Pages:</span>
+      <span>This resume is made with React.js</span>
+      <span>Deployed on Github Pages:</span>
       <span className="mt-3">davidholyko.github.io/resume</span>
     </div>
   </div>
