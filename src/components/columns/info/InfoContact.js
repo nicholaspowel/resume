@@ -22,11 +22,6 @@ const InfoContact = () => {
       type: 'Portfolio',
       icon: 'portfolio',
       value: 'davidholyko.github.io'
-    },
-    {
-      type: 'Phone',
-      icon: 'phone',
-      value: '617-842-1015'
     }
   ]
 

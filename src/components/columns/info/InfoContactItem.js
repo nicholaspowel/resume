@@ -9,12 +9,12 @@ const images = { gmail, linkedin, phone, github, portfolio }
 
 const InfoContactItem = ({ contact }) => (
   <div className="info-contact-item">
-    <div>
+    <div className="d-flex">
       <img className='icon' src={images[contact.icon]}/>
-      <span className="align-text-top">{contact.type}:</span>
+      <span className="mt-auto">{contact.type}:</span>
     </div>
-    <div>
-      <span className="align-text-top">{contact.value}</span>
+    <div className="d-flex">
+      <span className="mt-auto">{contact.value}</span>
     </div>
   </div>
 )
