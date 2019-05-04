@@ -10,11 +10,11 @@ const images = { gmail, linkedin, phone, github, portfolio }
 const InfoContactItem = ({ contact }) => (
   <div className="info-contact-item">
     <div className="d-flex">
-      <img className='icon' src={images[contact.icon]}/>
-      <span className="mt-auto">{contact.type}:</span>
+      <img className='icon my-auto' src={images[contact.icon]}/>
+      <span className="my-auto">{contact.type}:</span>
     </div>
     <div className="d-flex">
-      <span className="mt-auto">{contact.value}</span>
+      <span className="my-auto">{contact.value}</span>
     </div>
   </div>
 )
