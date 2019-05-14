@@ -6,8 +6,8 @@ const projects = [
     title: 'StackOverKo',
     summary: 'A question-response website for developers',
     skills: 'JavaScript HTML CSS Ruby React.js Rails PostgreSQL Axios',
-    deployed: 'https://davidholyko.github.io/stackoverko-client',
-    repo: 'https://github.com/davidholyko/stackoverko-client',
+    deployed: 'https://davidholyko.github.io/dko-stackoverko-client',
+    repo: 'https://github.com/davidholyko/dko-stackoverko-client',
     description: [
       'Launched a open forum website that helps developers find specific answers',
       'Built Front End with React.js to emphasize modularity and boost performance',
